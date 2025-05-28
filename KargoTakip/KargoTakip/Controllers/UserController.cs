@@ -6,6 +6,7 @@ namespace KargoTakip.Controllers
     {
         public IActionResult Index()
         {
+            var deneme=DateTime.Now;
             return View();
         }
     }
